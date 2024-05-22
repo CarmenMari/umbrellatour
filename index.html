@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmen María Granados - Servicio Amiga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffccf2;
+            color: #663399;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffccf2;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #663399;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 50px;
+        }
+        .section h2 {
+            color: #ff69b4;
+        }
+        .section.bg-light {
+            background-color: #fff;
+        }
+        .section.bg-pink {
+            background-color: #ffe6f2;
+        }
+        footer {
+            background-color: #ffccf2;
+            color: #663399;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #ff69b4;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #ff1493;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .languages {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .languages a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #663399;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carmen María Granados - Servicio Amiga</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#experiencias">Experiencias</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section bg-pink">
+        <h2>Bienvenidas a Servicio Amiga</h2>
+        <p>¡Hola! Soy Carmen María Granados y he creado este servicio para ofrecer a las mujeres que viajan solas una amiga en cada ciudad. Nuestro objetivo es que te sientas segura y acompañada durante tu viaje, disfrutando de la compañía y el conocimiento local de nuestras voluntarias.</p>
+    </section>
+
+    <section id="proyectos" class="section bg-light">
+        <h2>Proyectos y Paquetes</h2>
+        <div class="card">
+            <h3>Recogida del Aeropuerto</h3>
+            <p>Te recogemos en el aeropuerto y te acompañamos a tu alojamiento, ayudándote con lo que necesites.</p>
+            <a href="#" class="button">Contratar</a>
+        </div>
+        <div class="card">
+            <h3>Tour de Compras</h3>
+            <p>Disfruta de un tour de compras por la ciudad con nuestras voluntarias que te mostrarán las mejores tiendas.</p>
+            <a href="#" class="button">Contratar</a>
+        </div>
+        <div class="card">
+            <h3>Comidas Típicas</h3>
+            <p>Explora la gastronomía local con una amiga que te llevará a los mejores restaurantes.</p>
+            <a href="#" class="button">Contratar</a>
+        </div>
+        <div class="card">
+            <h3>Espectáculos y Cultura</h3>
+            <p>Asiste a espectáculos y conoce la historia cultural de la ciudad acompañada de una experta local.</p>
+            <a href="#" class="button">Contratar</a>
+        </div>
+    </section>
+
+    <section id="experiencias" class="section bg-pink">
+        <h2>Historias de Viajeras</h2>
+        <div class="card">
+            <h3>María García</h3>
+            <p>“Gracias a Servicio Amiga, mi viaje a París fue inolvidable. Me sentí segura y bien acompañada todo el tiempo.”</p>
+        </div>
+        <div class="card">
+            <h3>Ana López</h3>
+            <p>“Mi experiencia en Roma fue increíble gracias a la compañía de una voluntaria que me mostró los secretos de la ciudad.”</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="section bg-light">
+        <h2>Contacto</h2>
+        <p>Si estás interesada en contratar nuestros servicios o en unirte como voluntaria, por favor completa el siguiente formulario:</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Síguenos en redes sociales:</p>
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        <div class="languages">
+            <a href="#">Español</a>
+            <a href="#">Inglés</a>
+            <a href="#">Francés</a>
+            <a href="#">Italiano</a>
+        </div>
+    </footer>
+</body>
+</html>
